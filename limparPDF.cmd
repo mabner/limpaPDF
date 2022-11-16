@@ -3,6 +3,15 @@
 :: Alterar a pasta NFe de acordo com o cliente. E.g. NFE-1612
 cd %syslink%\NFe2
 
+SET _letraUnidade=%syslink:~0,2%
+
+echo %_letraUnidade%
+:: Pause para teste
+pause
+
+
+
+
 mkdir %temp%\PDFEspelho
 
 timeout /t 3
