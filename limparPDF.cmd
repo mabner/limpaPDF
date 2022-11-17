@@ -16,30 +16,17 @@ del /s /f %caminho%\*.pdf
 
 move %temp%\PDFEspelho\*.pdf %caminho%\Espelho\
 
-mkdir /S /Q %temp%\PDFEspelho
+rmdir /S /Q %temp%\PDFEspelho
 
 echo  Limpeza da pasta concluida 
-   
+echo.:
+echo.:
+echo " _______  ______   _______ 
+echo "|       ||      | |       |
+echo "|    _  ||  _    ||    ___|
+echo "|   |_| || | |   ||   |___ 
+echo "|    ___|| |_|   ||    ___|
+echo "|   |    |       ||   |    
+echo "|___|    |______| |___|    
+echo "        REMOVER 1.0        
 timeout /t 5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
