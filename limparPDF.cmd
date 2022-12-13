@@ -25,6 +25,7 @@ move %temp%\PDFEspelho\*.pdf %caminho%\Espelho\
 move %temp%\%mes_atual%\*.pdf %caminho%\%mes_atual%\
 
 rmdir /S /Q %temp%\PDFEspelho
+rmdir /S /Q %temp%\%mes_atual%
 
 echo  Limpeza da pasta concluida 
 echo.:
